@@ -24,7 +24,7 @@ Bu proje, **kişisel bilgilerini, yeteneklerini, eğitim geçmişini, hobilerini
 
 ## ✨ Fotoğraflar
 ![Admin Paneli](images/loginpage.png)
-![Admin Paneli](images/skill.jpeg)
+![Admin Paneli](images/skills.jpeg)
 ![Admin Paneli](images/sertificates.jpeg)
 ![Admin Paneli](images/messages.jpeg)
 
