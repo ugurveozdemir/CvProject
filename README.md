@@ -1,6 +1,6 @@
 # 🌟 Kişisel CV Projesi
 
-![Proje Kapak Resmi](images/defaultFull.jpeg)
+![Proje Kapak Resmi](./images/defaultFull.jpeg)
 
 ## 📄 Proje Hakkında
 
