@@ -1,0 +1,88 @@
+﻿@model List<CVproject.Models.TblSkills>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    string color = "";
+    int sort = 0;   
+}
+
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Yetenek Listem</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <a href="/Skill/NewSkill/" style="margin-bottom:5px" class="btn btn-info">New Skill</a>
+
+                                
+                                
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10px">#</th>
+                                            <th>Task</th>
+                                            <th>Progress</th>
+                                            <th style="width: 40px">Label</th>
+                                            <th style="width:30px">Update</th>
+                                            <th style="width:30px">Delete</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+
+                                        {
+                                            sort = sort + 1;
+                                            if (item.Progress < 50)
+                                            {
+                                                color = "progress-bar bg-danger";
+                                            }
+                                            else if (item.Progress < 75)
+                                            {
+                                                color = "progress-bar bg-warning";
+                                            }
+                                            else {
+
+                                                color = "progress-bar bg-success";
+                                            }
+                                        <tr>
+                                            <td>@sort</td>
+                                            <td>@item.Skill</td>
+                                            <td>
+                                                <div class="progress progress-xs">
+                                                    <div class="@color" style="width: @item.Progress%"></div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge bg-gradient-primary">@item.Progress%</span></td>
+                                            <td><a href="/Skill/UpdateSkill/@item.Id" class="btn btn-default">Update</a> </td>    
+                                            <td><a href="/Skill/DeleteSkill/@item.Id" class="btn btn-default">Delete</a> </td>    
+                                        </tr>
+                                        }
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+</body>
+</html>
+

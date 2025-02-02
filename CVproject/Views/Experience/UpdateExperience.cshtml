@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "UpdateExperience";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Update Experience</h2>
+<br />
+<form class="form-group" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <label>Title</label>
+    <input type="text" name="Title" value="@Model.Title" class="form-control" />
+    <br />
+    <label>Subtitle</label>
+    <input type="text" name="Subtitle" value="@Model.Subtitle" class="form-control" />
+    <br />
+    <label>Date</label>
+    <input type="text" name="Date" value="@Model.Date" class="form-control" />
+    <br />
+    <label>Description</label>
+    <textarea type="text" name="Description" class="form-control" rows=5>@Model.Description</textarea>
+    <br />
+    <button class="btn btn-success">Save</button>
+</form>
+

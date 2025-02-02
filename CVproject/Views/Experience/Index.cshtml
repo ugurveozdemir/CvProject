@@ -1,0 +1,33 @@
+﻿@using CVproject.Models
+@model List<TblExperience>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Experience List</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Subtitle</th>
+        <th>Date</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Title</td>
+            <td>@item.Subtitle</td>
+            <td>@item.Date</td>
+            <td><a href="/Experience/UpdateExperience/@item.Id" class="btn btn-warning">Update</a></td>
+            <td><a href="/Experience/DeleteExperience/@item.Id" class="btn btn-danger">Delete</a></td>
+        </tr>
+}
+</table>
+<br />
+<a href="/Experience/AddExperience" class="btn btn-success">Create New</a>
+

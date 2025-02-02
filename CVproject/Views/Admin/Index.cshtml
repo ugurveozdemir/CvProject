@@ -1,0 +1,33 @@
+﻿@using CVproject.Models
+@model List<TblLogin>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Experience List</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Update</th>
+        <th>Remove</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.username</td>
+            <td><a href="/Admin/UpdateAdmin/@item.Id" class="btn btn-warning">Update</a></td>
+            <td><a href="/Admin/RemoveAdmin/@item.Id" class="btn btn-danger">Delete</a></td>
+
+        </tr>
+    }
+</table>
+<br />
+<a href="/Admin/NewAdmin" class="btn btn-success">Add New User</a>
+
+
+

@@ -1,0 +1,21 @@
+﻿@model CVproject.Models.TblSertificates
+@{
+    ViewBag.Title = "UpdateSertificate";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Update Sertificate</h2>
+<form class="form-group" method="post">
+    <label>Title</label>
+    <input type="text" name="Description" class="form-control" value="@Model.Description" />
+    <br />
+
+    <label>Date</label>
+    <input type="text" name="Date" class="form-control" value="@Model.Date">
+    <br />
+
+    <button class="btn btn-success">Save</button>
+
+</form>
+

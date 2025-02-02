@@ -1,0 +1,24 @@
+﻿@using CVproject.Models
+@model List<TblInterests>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Interests</h2>
+<div>
+    <form class="form-group" method="post">
+        @foreach (var item in Model)
+        {
+            <label>Description 1 </label>
+            <textarea class="form-control" rows="5" name="Interest1">@item.Interest1</textarea>
+
+            <label>Description 2 </label>
+            <textarea class="form-control" rows="5" name="Interest2">@item.Interest2</textarea>
+        }
+        <br />
+        <button class="btn btn-success">Save</button>
+
+
+    </form>
+</div>

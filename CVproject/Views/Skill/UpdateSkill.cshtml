@@ -1,0 +1,23 @@
+﻿@model CVproject.Models.TblSkills
+@{
+    ViewBag.Title = "UpdateSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Update Skill</h2>
+<form class="form-group" method="post">
+    <label>Name</label>
+    <input type="text" name="Skill" class="form-control" value="@Model.Skill" />
+    <br />
+
+    <label>Progress</label>
+    <input type="number" name="Progress" class="form-control" value="@Model.Progress" />
+    <br />
+
+
+    <button class="btn btn-success">Save</button>
+
+</form>
+
+

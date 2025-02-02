@@ -1,0 +1,24 @@
+﻿@using CVproject.Models
+@model List<TblContact>
+<section class="resume-section" id="contact">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Contact</h2>
+        <form method="post">
+            <label>Name</label>
+            <input type="text" name="Name" class="form-control" required/>
+            <br />
+            <label>Subject</label>
+            <input type="text" name="Subject" class="form-control" required />
+            <br />
+            <label>Mail</label>
+            <input type="text" name="Mail" class="form-control" required/>
+            <br />
+            <label>Message</label>
+            <textarea type="text" name="Message" class="form-control" required></textarea>
+            <br />
+            <button class="btn btn-info">Send</button>
+        </form>
+
+    </div> 
+</section>
+

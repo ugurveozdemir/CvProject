@@ -1,0 +1,33 @@
+﻿@model CVproject.Models.TblEducation
+@{
+    ViewBag.Title = "UpdateEducation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Update Education</h2>
+<form class="form-group" method="post">
+    <label>Title</label>
+    <input type="text" name="Title" class="form-control" value="@Model.Title" />
+    <br />
+
+    <label>Subtitle</label>
+    <input type="text" name="Subtitle" class="form-control"value="@Model.Subtitle" />
+    <br />
+
+    <label>Subtitle 2</label>
+    <input type="text" name="Subtitle2" class="form-control"value="@Model.Subtitle2" />
+    <br />
+
+    <label>GPA</label>
+    <input type="text" name="GPA" class="form-control" value="@Model.GPA">
+    <br />
+
+    <label>Date</label> 
+    <input type="text" name="Date" class="form-control" value="@Model.Date">
+    <br />
+
+    <button class="btn btn-success">Save</button>
+
+</form>
+

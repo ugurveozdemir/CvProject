@@ -1,0 +1,23 @@
+﻿@using CVproject.Models
+@model TblLogin
+@{
+    ViewBag.Title = "UpdateAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Update Admin</h2>
+<form class="form-group" method="post">
+    <label>Username</label>
+    <input type="text" name="username" class="form-control" value="@Model.username" />
+    <br />
+
+    <label>Password</label>
+    <input type="password" name="password" class="form-control" value="@Model.password" />
+    <br />
+
+
+    <button class="btn btn-success">Save</button>
+
+</form>
+

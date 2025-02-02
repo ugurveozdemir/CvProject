@@ -1,0 +1,39 @@
+﻿@using CVproject.Models
+@model List<TblAbout>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>About Section</h2>
+<div>
+    <form class="form-group" method="post">
+        @foreach (var item in Model)
+        {
+            <label>Name </label>
+            <input class="form-control"  name="Name"value="@item.Name" />
+            <br />
+            <label>Surname </label>
+            <input class="form-control"  name="Surname"value="@item.Surname" />
+            <br />
+            <label>Adress </label>
+            <input class="form-control"  name="Address"value="@item.Address" />
+            <br />
+            <label>Phone </label>
+            <input class="form-control"  name="Phone" value="@item.Phone" />
+            <br />
+            <label>Mail </label>
+            <input class="form-control"  name="Mail" value="@item.Mail" />
+            <br />
+            <label>Description</label>
+            <textarea class="form-control"  name="Description">@item.Description</textarea>
+            <label>Image </label>
+            <input class="form-control" name="Image">@item.Image
+        }
+        <br />
+        <button class="btn btn-success">Save</button>
+
+
+    </form>
+</div>

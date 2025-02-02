@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\views\\admin\\newadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\admin\\newadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\views\\experience\\addexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\experience\\addexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|c:\\users\\ugurb\\desktop\\repos\\cvproject\\cvproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97706A-9D7F-4507-9AE2-080902AFF07D}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T12:01:49.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Experience\\AddExperience.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Experience\\AddExperience.cshtml",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Experience\\AddExperience.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Experience\\AddExperience.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T12:00:30.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\NewAdmin.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Admin\\NewAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\NewAdmin.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Admin\\NewAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T12:00:19.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExperienceController.cs",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\ExperienceController.cs",
+              "RelativeDocumentMoniker": "CVproject\\Controllers\\ExperienceController.cs",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\ExperienceController.cs",
+              "RelativeToolTip": "CVproject\\Controllers\\ExperienceController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:57:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T11:52:19.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CVproject\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CVproject\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:51:07.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T11:24:06.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CVproject\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\ugurb\\Desktop\\repos\\CVproject\\CVproject\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CVproject\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:21:22.628Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
